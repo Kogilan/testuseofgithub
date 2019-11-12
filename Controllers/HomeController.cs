@@ -15,6 +15,11 @@ namespace GithubTest.Controllers
             return View();
         }
 
+        public IActionResult displayflower()
+        {
+            return View();
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
